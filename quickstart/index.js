@@ -1,15 +1,15 @@
-var Source;
-var Destination;
+var source;
+var destination;
 function initMap() {
   const directionsService = new google.maps.DirectionsService();
   const onButtonClick = function () {
-    Source = document.getElementById('input').value.toLowerCase();
-    Destination = document.getElementById('output').value.toLowerCase();
+    source = document.getElementById('input').value.toLowerCase();
+    destination = document.getElementById('output').value.toLowerCase();
     if (
-      Source !== null &&
-      Source !== '' &&
-      Destination !== null &&
-      Destination !== ''
+      source !== null &&
+      source !== '' &&
+      destination !== null &&
+      destination !== ''
     ) {
       calculateAndDisplayRoute(directionsService);
     }
@@ -21,10 +21,10 @@ function calculateAndDisplayRoute(directionsService) {
   directionsService
     .route({
       origin: {
-        query: Source,
+        query: source,
       },
       destination: {
-        query: Destination,
+        query: destination,
       },
       travelMode: google.maps.TravelMode.DRIVING,
     })
