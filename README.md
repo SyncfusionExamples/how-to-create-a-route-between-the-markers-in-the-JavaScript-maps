@@ -8,15 +8,15 @@ Add your key for the Google Maps Directions API to the **index.html** file locat
 Make sure that you have the compatible versions of Visual Studio Code in your machine before starting to work on this project.
 Ensure you have Node.js installed on your machine to run the project dependencies and scripts effectively.
 
-## How to run this application?
+## How to run this application
 
 To run this application, you need to first clone the `how-to-create-a-route-between-the-markers-in-the-JavaScript-maps` repository and then navigate to its appropriate path where it has been located in your system.
 
 To do so, open the command prompt and run the below commands one after the other.
 
 ```
-git clone https://github.com/SyncfusionExamples/how-to-create-a-route-between-the-markers-in-the-JavaScript-maps airfare
-cd airfare
+git clone https://github.com/SyncfusionExamples/how-to-create-a-route-between-the-markers-in-the-JavaScript-maps myproject
+cd myproject
 ```
 
 ## Installing
